@@ -1,7 +1,17 @@
-h1 {
-  color: red;
-}
 html {
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Zalando Sans SemiExpanded', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  line-height: 0;
+  text-align: center;
+  text-shadow: #a8a8a8 2px 2px 4px;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 18px;
 }
