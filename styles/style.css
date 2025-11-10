@@ -1,17 +1,26 @@
 html {
   font-size: 12px;
   font-family: 'Zalando Sans SemiExpanded', sans-serif;
+  background-color: #E3F2FD;
 }
-h1 {
+h1{
   font-size: 60px;
   line-height: 0;
   text-align: center;
   text-shadow: #a8a8a8 2px 2px 4px;
+  color: #5386E4;
 }
 h3 {
   font-size: 30px;
   text-align: center;
+  text-shadow: #a8a8a8 2px 2px 4px;
+  color: #5386E4
 }
-p {
+p, ul {
   font-size: 18px;
+  color: #5386E4
+}
+img {
+  width: 25%;
+  height: 25%; 
 }
