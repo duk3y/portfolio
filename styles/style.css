@@ -24,6 +24,9 @@ img {
   width: 25%;
   height: 25%; 
 }
+a {
+  
+}
 .navbar {
   position: fixed;
   top: 40%;
@@ -33,4 +36,9 @@ img {
 .navbar:hover {
   opacity: 1;
   transition: opacity 0.5s;
+}
+.page {
+  width: 100%;
+  min-height: 100vh;
+  border: black 2px solid;
 }
