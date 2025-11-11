@@ -24,3 +24,13 @@ img {
   width: 25%;
   height: 25%; 
 }
+.navbar {
+  position: fixed;
+  top: 40%;
+  opacity: 0.3;
+  transition: opacity 0.5s;
+}
+.navbar:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
