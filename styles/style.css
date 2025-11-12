@@ -3,29 +3,41 @@ html {
   font-family: 'Zalando Sans SemiExpanded', sans-serif;
   background-color: #E3F2FD;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 h1{
   font-size: 60px;
   line-height: 0;
-  text-align: center;
+  text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
-  color: #5386E4;
+  color: #4C4B63;
 }
-h3 {
+h2 {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
-  color: #5386E4
+  color: #4C4B63
+}
+h3{
+  font-size: 24px;
+  text-shadow: #a8a8a8 2px 2px 4px;
+  color: #4C4B63
 }
 p, ul {
   font-size: 18px;
-  color: #5386E4
+  list-style-type: none;
+  color: #4C4B63
 }
 img {
   width: 25%;
   height: 25%; 
 }
-a {
-  
+a{
+}
+a:clicked {
+  transition: 0.5s;
 }
 .navbar {
   position: fixed;
@@ -40,5 +52,17 @@ a {
 .page {
   width: 100%;
   min-height: 100vh;
-  border: black 2px solid;
+}
+#homepage {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 30% 40% 30%;
+}
+.nameplate{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
+  align-items: center;
 }
