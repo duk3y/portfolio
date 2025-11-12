@@ -8,20 +8,22 @@ body {
   padding: 0;
 }
 h1{
-  font-size: 60px;
+  font-size: 108px;
   line-height: 0;
   text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
+  word-wrap: break-word;
+  white-space: normal;
   color: #4C4B63;
 }
 h2 {
-  font-size: 30px;
+  font-size: 48px;
   text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
   color: #4C4B63
 }
 h3{
-  font-size: 24px;
+  font-size: 30px;
   text-shadow: #a8a8a8 2px 2px 4px;
   color: #4C4B63
 }
@@ -63,6 +65,8 @@ a:clicked {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  width: fit-content;
+  height: fit-content;
   text-align: left;
   align-items: center;
 }
