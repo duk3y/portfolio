@@ -2,6 +2,7 @@ html {
   font-size: 12px;
   font-family: 'Zalando Sans SemiExpanded', sans-serif;
   background-color: #E3F2FD;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -12,8 +13,6 @@ h1{
   line-height: 0;
   text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
-  word-wrap: break-word;
-  white-space: normal;
   color: #4C4B63;
 }
 h2 {
@@ -57,7 +56,7 @@ a:clicked {
 #homepage {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 30% 40% 30%;
+  grid-template-rows: 30% 70%;
 }
 .nameplate{
   grid-column-start: 2;
@@ -89,4 +88,16 @@ img {
   grid-row-end: 3;
   width: 300px;
   height: 300px;
+}
+#experience{
+  display: grid;
+  grid-template-columns: 15% 35% 10% 25% 15%;
+  grid-template-rows: 10% 80% 10%;
+  align-items: center;
+}
+.title{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
