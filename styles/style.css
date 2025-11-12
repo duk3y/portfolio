@@ -13,20 +13,20 @@ h1{
   line-height: 0;
   text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
-  color: #4C4B63;
+  color: #151E3F;
 }
 h2 {
   font-size: 48px;
   text-align: left;
   text-shadow: #a8a8a8 2px 2px 4px;
-  color: #4C4B63
+  color: #151E3F
 }
 h3{
   font-size: 30px;
   text-shadow: #a8a8a8 2px 2px 4px;
-  color: #4C4B63
+  color: #151E3F
 }
-p, ul {
+p {
   font-size: 18px;
   list-style-type: none;
   color: #4C4B63
@@ -40,6 +40,8 @@ a:clicked {
   transition: 0.5s;
 }
 .navbar {
+  list-style-type: none;
+  font-size: 18px;
   position: fixed;
   top: 40%;
   opacity: 0.5;
@@ -71,28 +73,7 @@ a:clicked {
 #about{
   display: grid;
   grid-template-columns: 15% 42% 6% 22% 15%;
-  grid-template-rows: 10% 80% 10%;
-  align-items: center;
-}
-.text{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-img {
-  border:#FAFAFA 5px solid;
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  width: 300px;
-  height: 300px;
-}
-#experience{
-  display: grid;
-  grid-template-columns: 15% 35% 10% 25% 15%;
-  grid-template-rows: 10% 80% 10%;
+  grid-template-rows: 10% 10% 70% 10%;
   align-items: center;
 }
 .title{
@@ -100,4 +81,77 @@ img {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  line-height: 0;
+}
+.text{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+img {
+  border:#FAFAFA 5px solid;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 300px;
+  height: 300px;
+}
+#experience{
+  display: grid;
+  grid-template-columns: 15% 40% 5% 25% 15%;
+  grid-template-rows: 10% 10% 70% 10%;
+  align-items: center;
+}
+.timeline{
+  color: #4C4B63;
+  font-size: 12px;
+  position: relative;
+  list-style-type: none;
+  line-height: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.timeline:before{
+  background-color: #4C4B63;
+  width: 2px;
+  content: '';
+  position: absolute;
+  top: 110px;
+  bottom: 0px;
+  left: 30px;
+}
+.events {
+  position: relative;
+}
+.event{
+  display: flex;
+  margin-bottom: 20px;
+}
+.event .marker {
+   position: relative;
+   left: -15px;
+   top: 14px;
+}
+.job{
+  list-style-type: none;
+}
+.jobtitle{
+  line-height: 0;
+  color: #5386E4;
+  text-shadow: none;
+}
+.jobsubtitle{
+  line-height: 0;
+  font-size: 18px;
+  color: #4C4B63;
+
+}
+.jobdate{
+  line-height: 0;
+  font-size: 16px;
+  color: #4C4B63;
 }
