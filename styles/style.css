@@ -43,7 +43,7 @@ a:clicked {
 .navbar {
   position: fixed;
   top: 40%;
-  opacity: 0.3;
+  opacity: 0.5;
   transition: opacity 0.5s;
 }
 .navbar:hover {
