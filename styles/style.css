@@ -131,7 +131,7 @@ img {
   width: 2px;
   content: '';
   position: absolute;
-  top: 80px;
+  top: 90px;
   bottom: 0px;
   left: 25px;
 }
@@ -148,9 +148,29 @@ img {
    left: -20px;
    top: 6px;
 }
+.event1{
+  display: flex;
+  margin-bottom: 15px;
+}
+.event1 .marker {
+  fill: #5386E4;
+  position: relative;
+  left: -20px;
+  top: 6px;
+}
+.event2{
+  display: flex;
+  margin-bottom: 70px;
+}
+.event2 .marker {
+  fill: #5386E4;
+   position: relative;
+   left: -20px;
+   top: 6px;
+}
 .job{
   list-style-type: none;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 .jobtitle{
   line-height: 1;
@@ -199,4 +219,17 @@ img {
   border: #4C4B63 2px solid;
   border-radius: 8px;
   padding: 5px;
+}
+#projects{
+  display: grid;
+  grid-template-columns: 15% 30% 10% 30% 15%;
+  grid-template-rows: 10% 10% 30% 10% 30% 10%;
+  align-items: center;
+}
+.projectstitle{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: left;
 }
