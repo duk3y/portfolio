@@ -280,6 +280,14 @@ a{
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 4;
+  width: 100%;
+  height: 100%;
+}
+.movie{
+  border:#5386E4 4px solid;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
 }
 .desctitle1{
   grid-column: 2/3;
