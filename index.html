@@ -21,7 +21,7 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact Me</a></li>
   </ul>
-  <div class="page" id="homepage">
+  <div class="page" id="homepage"> <!--TODO: Add UVA colors to UVA, maybe gradient?-->
     <div class="nameplate">
       <h2>👋 Hello, I'm</h2>
       <h1>Duke Nguyen</h1>
@@ -31,7 +31,8 @@
       </div>
     </div>
   </div>
-  <div class="page" id="about"> <!--TODO: Change picture, make dimension adjustments-->
+  <div class="page" id="about">
+    <!--TODO: Change picture, make dimension adjustments, maybe add spotlight effect when hovering photo-->
     <div class="text">
       <div class="title about">
         <h2>
@@ -53,14 +54,11 @@
     </div>
     <img class="portrait" src="images/IMG_6283.jpg" alt="A Photo of Duke Nguyen" />
   </div>
-  <div class="page" id="experience">
-    <h2 class="experiencetitle">
-      🧳 Experience
-    </h2>
-    <h2 class="skillstitle">
-      🛠️ Skills
-    </h2>
+  <div class="page" id="experience"> <!--TODO: Fix spacing between headings and content-->
     <ul class="timeline">
+      <h2 class="experiencetitle">
+        🧳 Experience
+      </h2>
       <div class="events">
         <li class="job torrential">
           <h3 class="jobtitle"><i>Torrential Data Solutions</i></h3>
@@ -72,7 +70,7 @@
           </svg>
           <div class="content">
             <h4 class="jobdate">Present</h4>
-            <p class="jobtext">On the horizon!</p>
+            <p class="jobtext">New things on the horizon!</p>
           </div>
         </li>
         <li class="event2">
@@ -105,6 +103,9 @@
       </div>
     </ul>
     <div class="skills">
+      <h2 class="skillstitle">
+        🛠️ Skills
+      </h2>
       <div class="skill">
         <h3 class="skilltitle">Languages</h3>
         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
@@ -188,8 +189,8 @@
       </div>
     </div>
   </div>
-  <div class="page" id="projects">
-    <h2 class="projectstitle">
+  <div class="page" id="projects"> <!--TODO: Actually link projects-->
+    <h2 class="projectspagetitle">
       💡 Projects
     </h2>
     <div class="card1">
@@ -201,31 +202,32 @@
     <div class="card3">
       <img class="movie" src="images/moviecritic.png" />
     </div>
-    <h3 class="desctitle1">Music Production PMA</h3>
     <div class="desc1">
+      <h3 class="projtitle">🎙️ Music Production PMA</h3>
       <p>A project management app designed for music production. This app was created by myself along with four other
         students at the University of Virginia for the CS 3240 - Software Engineering course.
       </p>
     </div>
-    <h3 class="desctitle2">Duke Dollars</h3>
     <div class="desc2">
+      <h3 class="projtitle">💸 Duke Dollars</h3>
       <p>Educational cryptocurrency simulation implementing core blockchain concepts including wallet generation,
         transaction processing, mining, and validation using RSA cryptography and SHA-256.
       </p>
     </div>
-    <h3 class="desctitle3">Movie Reviews App</h3>
     <div class="desc3">
+      <h3 class="projtitle">🍿 Movie Reviews App</h3>
       <p>MovieCritic is a small PHP/MySQL app where people can register, log in, and leave one review per movie.
         Pages
         include a movie list, movie detail with reviews, search, and a profile page that lists your own reviews.</p>
     </div>
     <div class="githublink">
-      find more @
-      <a href="https://github.com/duk3y">github/duk3y
-        <svg class="projectsicon" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
-          <image href="images/github.svg" width="30" height="30" />
-        </svg>
-      </a>
+      <p>Interested? Find more on my
+        <a href="https://github.com/duk3y">GitHub!
+          <svg class="projectsicon" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+            <image href="images/github.svg" width="20" height="20" />
+          </svg>
+        </a>
+      </p>
     </div>
   </div>
   <div class="page" id="contact">
