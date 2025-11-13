@@ -128,8 +128,8 @@ a {
 
 #experience {
   display: grid;
-  grid-template-columns: 11% 2% 35% 5% 36% 11%;
-  grid-template-rows: 10% 10% 70% 10%;
+  grid-template-columns: 15% 20% 14% 4% 14% 20% 15%;
+  grid-template-rows: 10% 10% 60% 10% 10%;
   align-items: center;
 }
 
@@ -147,7 +147,7 @@ a {
   grid-column-end: 6;
   grid-row-start: 2;
   grid-row-end: 3;
-  text-align: left;
+  text-align: right;
   margin-bottom: 50px;
 }
 
@@ -157,8 +157,7 @@ a {
   position: relative;
   list-style-type: none;
   line-height: 1;
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2/5;
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -252,10 +251,10 @@ a {
 }
 
 .skills {
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-column: 5/7;
   grid-row-start: 3;
   grid-row-end: 4;
+  text-align: right;;
 }
 
 .skill {
@@ -275,6 +274,12 @@ a {
   border: #4C4B63 2px solid;
   border-radius: 8px;
   padding: 5px;
+}
+
+.linkedinlink {
+  grid-column: 3/6;
+  grid-row: 4/5;
+  text-align: center;
 }
 
 #projects {
