@@ -13,20 +13,20 @@ h1{
   line-height: 1;
   margin: 0;
   text-align: left;
-  text-shadow: #a8a8a8 2px 2px 4px;
+  text-shadow: 2px 2px 4px;
   color: #151E3F;
 }
 h2 {
   font-size: 48px;
   margin: 0;
   text-align: left;
-  text-shadow: #a8a8a8 2px 2px 4px;
+  text-shadow: #4C4B63 2px 2px 4px;
   color: #151E3F
 }
 h3{
   font-size: 30px;
   margin: 0;
-  text-shadow: #a8a8a8 2px 2px 4px;
+  text-shadow: #4C4B63 2px 2px 4px;
   color: #151E3F
 }
 p {
@@ -69,9 +69,13 @@ a{
   height: fit-content;
   text-align: left;
   align-items: center;
+  padding: 50px;
+  border:#5386E4 4px solid;
+  border-radius: 100px;
 }
 .subtitles{
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 #about{
   display: grid;
@@ -96,7 +100,8 @@ a{
   grid-row-end: 4;
 }
 img {
-  border:#FAFAFA 5px solid;
+  border:#5386E4 5px solid;
+  border-radius: 8px;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 3;
@@ -122,7 +127,7 @@ img {
   grid-row-end: 4;
 }
 .timeline:before{ /* vertical line connecting timeline points */
-  background-color: #4C4B63;
+  background-color: #5386E4;
   width: 2px;
   content: '';
   position: absolute;
@@ -138,6 +143,7 @@ img {
   margin-bottom: 10px;
 }
 .event .marker {
+  fill: #5386E4;
    position: relative;
    left: -20px;
    top: 6px;
@@ -148,7 +154,7 @@ img {
 }
 .jobtitle{
   line-height: 1;
-  color: #5386E4;
+  color: #151E3F;
   text-shadow: none;
 }
 .jobsubtitle{
@@ -161,7 +167,7 @@ img {
   line-height: 1;
   margin: 0;
   font-size: 24px;
-  color: #4C4B63;
+  color: #151E3F;
 }
 .jobtext{
   font-size: 18px;
@@ -184,7 +190,7 @@ img {
 .skilltitle{
   font-size: 24px;
   text-shadow: none;
-  color:#5386E4;
+  color:#151E3F;
   margin-bottom: 10px;
 }
 .icon{
