@@ -80,8 +80,8 @@ a{
   align-items: center;
 }
 .title{
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
   line-height: 1;
@@ -106,7 +106,7 @@ img {
 }
 #experience{
   display: grid;
-  grid-template-columns: 15% 40% 5% 25% 15%;
+  grid-template-columns: 13% 2% 38% 5% 29% 13%;
   grid-template-rows: 10% 10% 70% 10%;
   align-items: center;
 }
@@ -117,7 +117,7 @@ img {
   list-style-type: none;
   line-height: 1;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -173,7 +173,7 @@ img {
   line-height: 1;
 }
 .skills{
-  grid-column-start: 4;
+  grid-column-start: 5;
   grid-column-end: 6;
   grid-row-start: 3;
   grid-row-end: 4;
