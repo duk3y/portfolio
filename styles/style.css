@@ -178,3 +178,19 @@ img {
   grid-row-start: 3;
   grid-row-end: 4;
 }
+.skill{
+  margin-bottom: 15px;
+}
+.skilltitle{
+  font-size: 24px;
+  text-shadow: none;
+  color:#5386E4;
+  margin-bottom: 10px;
+}
+.icon{
+  width: fit-content;
+  height: fit-content;
+  border: #4C4B63 2px solid;
+  border-radius: 8px;
+  padding: 5px;
+}
