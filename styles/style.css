@@ -13,8 +13,8 @@ body {
 h1 {
   font-size: 108px;
   line-height: 1;
-  margin: 0;
-  text-align: left;
+  margin-top: 0;
+  margin-bottom: 15px;
   text-shadow: 2px 2px 4px;
   color: #151E3F;
 }
@@ -22,7 +22,6 @@ h1 {
 h2 {
   font-size: 48px;
   margin: 0;
-  text-align: left;
   text-shadow: #4C4B63 2px 2px 4px;
   color: #151E3F
 }
@@ -67,7 +66,8 @@ a {
 #homepage {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 30% 40% 30%;
+  place-items: center;
 }
 
 .nameplate {
@@ -75,18 +75,17 @@ a {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  width: fit-content;
-  height: fit-content;
-  text-align: left;
-  align-items: center;
-  padding: 50px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
   border: #5386E4 4px solid;
-  border-radius: 100px;
+  border-radius: 80px;
 }
 
-.subtitles {
-  margin-top: 15px;
-  margin-bottom: 0;
+.nameplatetext {
+  width: fit-content;
+  height: fit-content;
 }
 
 #about {
@@ -278,8 +277,8 @@ a {
 
 .linkedinlink {
   grid-column: 3/6;
-  grid-row: 4/5;
-  text-align: center;
+  grid-row: 5/6;
+  text-align: top;
 }
 
 #projects {
