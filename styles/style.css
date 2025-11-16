@@ -48,19 +48,35 @@ a {
   position: fixed;
   width: 100%;
   margin: 0;
-  border:#4C4B63 2px solid;
+  padding: 0;
   box-shadow: #4C4B63 2px 1px 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   background-color: #E3F2FD;
   list-style-type: none;
   font-size: 18px; 
   z-index: 1000;
 }
 
-.uppernavbar li {
-  margin: 20px;
+.uppernavbar .name {
+  display: grid;
+  align-content: center;
+  padding: 12px;
+  text-shadow: #4C4B63 1px 1px 4px;
+  border-right: #4C4B63 1px dotted;
+}
+
+.uppernavbar a {
+  text-align: center;
+  padding: 12px;
+  position: relative;
+}
+
+.uppernavbar a.resume {
+  margin-left: auto;
+  color: #E71D36;
+  padding-left: 10px;
+  padding-right: 30px;
 }
 
 .rightnavbar {
