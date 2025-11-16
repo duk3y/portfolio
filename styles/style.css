@@ -44,7 +44,25 @@ a {
   text-decoration: none;
 }
 
-.navbar {
+.uppernavbar {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  border:#4C4B63 2px solid;
+  box-shadow: #4C4B63 2px 1px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #E3F2FD;
+  list-style-type: none;
+  font-size: 18px; 
+}
+
+.uppernavbar li {
+  margin: 20px;
+}
+
+.rightnavbar {
   list-style-type: none;
   font-size: 18px;
   position: fixed;
@@ -53,7 +71,7 @@ a {
   transition: opacity 0.5s;
 }
 
-.navbar:hover {
+.rightnavbar:hover {
   opacity: 1;
   transition: opacity 0.5s;
 }
