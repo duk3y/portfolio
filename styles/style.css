@@ -62,7 +62,7 @@ a {
   display: grid;
   align-content: center;
   padding: 12px;
-  text-shadow: #4C4B63 1px 1px 4px;
+  text-shadow: #4C4B63 1px 1px 1px;
   border-right: #4C4B63 1px dotted;
 }
 
@@ -349,6 +349,11 @@ a {
   grid-row-end: 4;
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card1:hover{
+  transform: scale(1.03);
 }
 
 .pma {
@@ -365,6 +370,11 @@ a {
   grid-row-end: 4;
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card2:hover{
+  transform: scale(1.03);
 }
 
 .crypto {
@@ -381,6 +391,11 @@ a {
   grid-row-end: 4;
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card3:hover{
+  transform: scale(1.03);
 }
 
 .movie {
