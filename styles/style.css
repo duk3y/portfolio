@@ -181,7 +181,7 @@ a {
   display: grid;
   grid-template-columns: 15% 20% 14% 4% 14% 20% 15%;
   grid-template-rows: 10% 10% 60% 10% 10%;
-  align-items: center;
+  align-items: stretch;
 }
 
 .experiencetitle {
@@ -279,8 +279,10 @@ a {
 
 .experience{ 
   grid-column: 2/4;
-  grid-row: 3/4;
-  
+  grid-row: 2/4;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .job {
@@ -309,9 +311,11 @@ a {
 
 .skills {
   grid-column: 5/7;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  text-align: right;;
+  grid-row: 2/4;
+  text-align: right;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .skill {
