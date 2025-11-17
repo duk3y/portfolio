@@ -291,6 +291,11 @@ a {
   color: #151E3F;
   margin-bottom: 10px;
 }
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
 
 .icon {
   width: fit-content;
@@ -298,6 +303,28 @@ a {
   border: #4C4B63 2px solid;
   border-radius: 8px;
   padding: 5px;
+  display: block;
+}
+
+.icon-wrapper::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  margin-bottom: 8px;
+}
+
+.icon-wrapper:hover::after {
+  opacity: 1;
 }
 
 .linkedinlink {
