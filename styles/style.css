@@ -309,6 +309,21 @@ a {
   font-size: 18px;
 }
 
+.jobskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.jobskill p{
+  margin: 0;
+  padding: 4px;
+  border: #5386E4 1px solid;
+  border-radius: 10px;
+  background-color: #E3F2FD;
+}
+
 .skills {
   grid-column: 5/7;
   grid-row: 2/4;
