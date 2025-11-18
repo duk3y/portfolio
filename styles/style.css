@@ -313,7 +313,11 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
+}
+
+.jobskill:not(:last-child){
+  padding-right: clamp(0px, 1vw, 5px)
 }
 
 .jobskill p{
@@ -322,7 +326,7 @@ a {
   border: #5386E4 2px solid;
   border-radius: 10px;
   background-color: #E3F2FD;
-  font-size: clamp(12px, 2vw, 16px);
+  font-size: clamp(8px, 2vw, 12px);
 }
 
 .skills {
@@ -494,6 +498,31 @@ a {
   grid-row: 5/6;
   width: 100%;
   height: 100%;
+}
+
+.projectskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-bottom: 18px;
+}
+
+.projlink {
+  margin-left: auto;
+}
+
+.projskill:not(:last-child){
+  padding-right: clamp(0px, 1vw, 5px)
+}
+
+.projskill p{
+  margin: 0;
+  padding: 4px;
+  border: #5386E4 2px solid;
+  border-radius: 10px;
+  background-color: #E3F2FD;
+  font-size: clamp(8px, 2vw, 12px);
 }
 
 .githublink {
