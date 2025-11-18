@@ -313,15 +313,16 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .jobskill p{
   margin: 0;
   padding: 4px;
-  border: #5386E4 1px solid;
+  border: #5386E4 2px solid;
   border-radius: 10px;
   background-color: #E3F2FD;
+  font-size: clamp(12px, 2vw, 16px);
 }
 
 .skills {
