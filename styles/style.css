@@ -1,6 +1,13 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+
 html {
   font-size: 12px;
-  font-family: 'Zalando Sans SemiExpanded', sans-serif;
   background-color: #E3F2FD;
   scroll-behavior: smooth;
 }
@@ -15,21 +22,21 @@ h1 {
   line-height: 1;
   margin-top: 0;
   margin-bottom: 15px;
-  text-shadow: 2px 2px 4px;
+  /*text-shadow: 2px 2px 4px;*/
   color: #151E3F;
 }
 
 h2 {
   font-size: 48px;
   margin: 0;
-  text-shadow: #4C4B63 2px 2px 4px;
+  /*text-shadow: #4C4B63 2px 2px 4px;*/
   color: #151E3F
 }
 
 h3 {
   font-size: 30px;
   margin: 0;
-  text-shadow: #4C4B63 2px 2px 4px;
+  /*text-shadow: #4C4B63 2px 2px 4px;*/
   color: #151E3F
 }
 
@@ -62,8 +69,15 @@ a {
   display: grid;
   align-content: center;
   padding: 12px;
-  text-shadow: #4C4B63 1px 1px 1px;
-  border-right: #4C4B63 1px dotted;
+  margin-right: auto;
+  /*text-shadow: #4C4B63 1px 1px 1px;*/
+}
+
+.uppernavbar .navbarcenter{
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .uppernavbar a {
